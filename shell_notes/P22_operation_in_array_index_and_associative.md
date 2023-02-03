@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 echo "Operation on Indexed arrays"
@@ -38,7 +39,7 @@ Operation on Associative Array
 profession clinet name
 profession clinet
 figuring out TMNA
-                                                                                    
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script24_operation_on_array.sh
 Operation on Indexed arrays
@@ -100,5 +101,3 @@ fpgurpng out
 fpinggurpingng out TMNA vpingkram
 student figuring out TMNA video vikram
 prof role clinet hobby name
-                                                                                    
-┌──(kali㉿kali)-[~/Desktop/shell]

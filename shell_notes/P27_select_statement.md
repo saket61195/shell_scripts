@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 select choice in add del backup exit
@@ -59,6 +60,7 @@ option selected is 4
 optin selected value is exit
 outside select statement
 ----------------------------
+
 #!/bin/bash
 
 add_user(){
@@ -93,8 +95,7 @@ do
 done
 
 echo "program execution completed..."
-=====================================================================
-                                 
+==================================================================
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script33_case_statement_select_and_array.sh
 1) add_user
@@ -109,4 +110,4 @@ please select the an option: 2
 inside user deletion
 please select the an option: 4
 program execution completed...
-                                 
+```

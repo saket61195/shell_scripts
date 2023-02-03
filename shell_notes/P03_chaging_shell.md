@@ -3,6 +3,7 @@
 
 ┌──(kali㉿kali)-[~]
 └─$ cat /etc/shells
+```shell
 # /etc/shells: valid login shells
 /bin/sh
 /bin/bash
@@ -18,7 +19,9 @@
 /usr/bin/pwsh
 /opt/microsoft/powershell/7/pwsh
 /usr/bin/sh
+```
 
+```
 
 --- to use any shell just type shell name
 ┌──(kali㉿kali)-[~]

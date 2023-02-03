@@ -1,3 +1,4 @@
+```
 # list of for loop
 
 for variable in list
@@ -231,12 +232,5 @@ user2:x:1004:1004:,,,:/home/user2:/bin/bash
 user3:x:1005:1005::/home/user3:/bin/bash
 user4:x:1006:1006:,,,:/home/user4:/bin/bash
 ----------------------------------------------
+```
 
-
-
-
-
-
-                                                                                                      
-┌──(kali㉿kali)-[~/Desktop/shell]
-└─$ 

@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 # saclar variable which can store one value at a time
@@ -87,3 +88,4 @@ echo ${UN[user15]}
 # declare -A UN=( [user1]="user1.com" [user2]="user2.com" [user3]="user3.com" )
 #another way to declare array
 
+```

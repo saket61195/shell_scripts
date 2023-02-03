@@ -1,3 +1,4 @@
+```
 varibale name can be alphbet and number and underscore but don't start with number
 
 a-zA-Z0-9_
@@ -21,10 +22,10 @@ var= ace  -> invalid
 var = ace  -> invalid
 
 var=ace -> valid
+```
 
---------------------------------
+```
 nano script.sh
-===================================
 #!/bin/bash
 
 VAR1=45
@@ -41,8 +42,8 @@ echo $var4 + $VAR1
 echo ${VAR1} this is ok
 echo $VAR1this is ok
 
-
 ===============================================
+
 └─$ ./script5.sh 
 45 this is ok
 this is good
@@ -146,8 +147,4 @@ apache2 IS Active: inactive (dead)
 kali
 --------------------------------------
 
-
-
-
-
-
+```

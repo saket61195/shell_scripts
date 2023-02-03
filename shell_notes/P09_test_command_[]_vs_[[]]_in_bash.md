@@ -1,3 +1,4 @@
+```
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ test 1 -eq 1
 
@@ -188,3 +189,4 @@ str is substring of string
 ┌─[✔][saket@saket-Aspire-A515-54G:]─[~]:
 └──╼ $ echo $?
 0
+```

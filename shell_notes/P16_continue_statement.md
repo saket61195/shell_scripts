@@ -1,3 +1,4 @@
+```
 # without continue statement
 
   GNU nano 7.1                        script17_continue_statement.sh                                  
@@ -62,7 +63,7 @@ do
 done
 echo "Script execution completed"
 ===================================================
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script17_continue_statement.sh 
 i is 1
@@ -103,7 +104,7 @@ do
 done
 echo "Script execution completed"
 ===================================================
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script17_continue_statement.sh 
 i is 1

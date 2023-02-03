@@ -11,7 +11,6 @@ tcsh shell -> .login , ( .tshrc , .cshrc ) , .logout
 zsh shell -> .zlogin , .zprofile , .zshrc , .zlogout
 
 
-
 setting up shell variables :
 sh,ksh,bash,zsh -> var=value / var="value"
 csh,tcsh -> set var=value / sef var="value"

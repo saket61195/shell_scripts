@@ -1,3 +1,4 @@
+
 * Operations On Scalar Variables 
 
 * ${VAR:ofst}
@@ -14,6 +15,7 @@
 * ${VAR:=value} 
 * ${#VAR} 
 --------------------------------------------------
+```
 #!/bin/bash
 
 #use {} curly braces to access variable for these operaion to work

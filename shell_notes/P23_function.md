@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 function add()
@@ -126,7 +127,7 @@ function add() {
 
 add 4 3 7 8 9
 ============================================
-                                                                                                                                                   
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script26_function.sh
 inside add function

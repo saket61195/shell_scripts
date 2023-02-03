@@ -1,3 +1,4 @@
+```
 0 -> successfully (true)
 
 1-255 -> unsuccessfully (false)
@@ -121,3 +122,4 @@ line above exit  command will execute
 -------------------------
 after 255 it will loop like 256=0 257=1 and so on ...
 
+```

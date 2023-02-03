@@ -1,3 +1,4 @@
+```
 nano script7.sh
 
   GNU nano 7.1                                  script7.sh *                                          
@@ -35,3 +36,4 @@ enter sentence
 i am not ok
 ./script7.sh: line 36: var: readonly variable
 var
+```

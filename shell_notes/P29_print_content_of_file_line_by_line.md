@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 FILENAME=${1}
@@ -9,8 +10,8 @@ do
     echo "line ${i} : ${line}"
     ((i++))
 done
-===================================
-                                                                                    
+=================================================================================
+ 
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script36_print_content_of_file.sh script1.sh
 line 1 : #!/bin/bash
@@ -18,9 +19,9 @@ line 2 : ls
 line 3 : echo "this is awsome"
 line 4 : ls
 line 5 : ls -l script.sh
+```
 -----------------------------------------
-
-
+```
 #!/bin/bash
 
 FILENAME=${1}
@@ -47,8 +48,9 @@ ls
 ls
 line 5 : -l
 line 6 : script.sh
+```
 --------------------------------------------
-
+```
 #!/bin/bash
 
 
@@ -85,11 +87,10 @@ common line : #field splitting
 common line : #parameter expansion
 common line : #command substitution
 common line : #airthmatic expansion
-common line : #only work when use quotes " "
-                                              
-
+common line : #only work when use quotes " "```
+```
 -------------------------------------------------
-
+```
 #!/bin/bash
 
 
@@ -582,6 +583,7 @@ f2 :     do
 f2 :         echo "f2 : ${lines_file2}"
 f2 :     done
 f2 : done
-                                                                                    
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ 
+```

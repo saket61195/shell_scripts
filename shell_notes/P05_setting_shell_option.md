@@ -1,4 +1,4 @@
-                               
+```bash 
 ┌──(kali㉿kali)-[~]
 └─$ set -o
 noaliases             off
@@ -186,16 +186,22 @@ warncreateglobal      off
 warnnestedvar         off
 xtrace                off
 zle                   on
-                                                                                                                                                                    ┌──(kali㉿kali)-[~]
-└─$ set -o | grep history
+
+```
+
+```bash
+┌──(kali㉿kali)-[~]
+└─$  set -o | grep history
 noappendhistory       off
 cshjunkiehistory      off
 extendedhistory       off
 incappendhistory      off
 incappendhistorytime  off
 sharehistory          off
+```
 
 
+```bash
 ┌─[✔][saket@saket-Aspire-A515-54G:]─[~]:
 └──╼ $ set -o | grep history
 history        	on
@@ -222,10 +228,12 @@ history         off
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ set -o |grep history
 history         on
+```
 
 
 ---------------------------------------------
 
+```bash
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ set -o | grep his
 histexpand      on
@@ -262,8 +270,10 @@ history         on
 set -o | grep his
 histexpand      on
 history         on
+```
 
 ----------------------------------
+```shell
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ set -o | grep brace
 braceexpand     on
@@ -287,8 +297,10 @@ file1 file2 file3 file4 file5
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ echo {1..3}{a..d}
 1a 1b 1c 1d 2a 2b 2c 2d 3a 3b 3c 3d
+```
 
 ---------------------------------
+```shell
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ touch file{1..4}.txt
 
@@ -310,8 +322,10 @@ file1.txt  file2.txt  file3.txt
 
 
 setting  noglob  to on it will not work funtionality
+```
 
 -------------------------------------------------------
+```
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ set -o | grep noclobber
 noclobber       off    
@@ -336,10 +350,11 @@ file4.txt
 kali.txt
 
 to stop this functionlity set to noclobber on
+```
 
 -----------------------------------------------
 
-
+```bash
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ wert="ls -l"
 
@@ -362,9 +377,10 @@ asssd=ls
 
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ 
-
+```
 -------------------------------------------------------------
 
+```bash
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ set -o | grep notify
 notify          off
@@ -393,9 +409,10 @@ file10.txt  file1.txt  file2.txt  file3.txt  file4.txt  kali.txt
 └─$ [1]+  Done sleep2
 
 it will automatically notify
+```
 
 --------------------------------
-
+```
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ set -o | grep ignore
 ignoreeof       off
@@ -403,6 +420,7 @@ ignoreeof       off
 if you put it on
 CTRL + D WILL NOT WORK IT MEAN TERMINAL NOT CLOSE
 exit command is used to close
+```
 
 
 ---------------------------------

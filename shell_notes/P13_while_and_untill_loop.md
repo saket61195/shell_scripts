@@ -1,3 +1,4 @@
+```
 condition (command ) -> command get executed -> command return exist status code -> 0 (true) non zero(false)
 
 zero exit status code = True
@@ -143,6 +144,4 @@ define task here
 Do you want to continue again (press y or yes to contnue) : no
 your input is : 
 the script execution is completed
-
-
 

@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 a1=1+1
@@ -187,6 +188,4 @@ fi
 └─$ ./script10_more_example.sh
 condition is true
 condition again true
-
-
-
+```

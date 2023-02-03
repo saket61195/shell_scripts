@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 echo $1
@@ -5,7 +6,7 @@ echo $2
 echo $3
 
 ==================
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script21_command_line_arguments.sh hello who are 
 hello
@@ -110,7 +111,3 @@ i.e no differnce when using without quotes
 for i in "$*"  (loop one times)("hello who are you kali")
 for i in "$@"   (loop three times)(hello "who are you" kali)
 
-
-
-                                                                                                    
-                                                                                            

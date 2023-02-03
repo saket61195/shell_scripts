@@ -4,7 +4,7 @@ shell variable = list of charcter that is used for
 -split lines into fields by read utility
 
 example 1 -->
-
+```
 IFS=' ' 3
 Frank Ross Kris
 
@@ -14,10 +14,9 @@ Frank:Ross best:Kris
 IFS=':'  3
 IFS=' '  2
 IFS=' :' 4
-
+```
 --------------------------------------------------------
-
-
+```
 ┌─[✔][saket@saket-Aspire-A515-54G:]─[~/learning/shell_scripting]:
 └──╼ $ set | grep IFS
 IFS=$' \t\n'
@@ -56,8 +55,10 @@ IFS=$' \t\n'
                     local IFS='
             local IFS='
         local IFS=' 
+```
 -------------------------------------------------------------
 
+```
 #!/bin/bash
 
 #field splitting
@@ -73,8 +74,10 @@ echo ${var1}
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script34_IFS.sh                            
 ram shyam shoan@113komal ravi
+```
 ----------------------------------------------
 
+```
 #!/bin/bash
 
 #field splitting
@@ -91,7 +94,9 @@ echo ${var1}
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script34_IFS.sh
 ram shyam shoan 113komal ravi
+```
 ----------------------------------------
+```
 #!/bin/bash
 
 #field splitting
@@ -108,8 +113,7 @@ for i in ${var1}
 do
     echo "${i}"
 done
-========================================
-                                                                                    
+================================================================================
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script34_IFS.sh       
 ram shyam shoan 113komal ravi
@@ -118,7 +122,9 @@ shyam
 shoan
 113komal
 ravi
+```
 ------------------------------------------
+```
 #!/bin/bash
 
 #field splitting
@@ -144,8 +150,7 @@ for i in $(echo "parinaz:shaida")
 do
     echo "${i}"
 done
-========================================
-                                                                                   
+=================================================================================
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script34_IFS.sh
 ram shyam shoan 113komal ravi
@@ -158,9 +163,9 @@ ravi
 saket prabhakr
 parinaz
 shaida
+```
 --------------------------------------------
-
-
+```
 #!/bin/bash
 
 #field splitting
@@ -175,15 +180,15 @@ echo $@
 echo "$*"
 echo "$@"
 =================================
-                                                                                    
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script35_IFS.sh sAKRT FKJGJ FJGJG KLKKLD
 sAKRT FKJGJ FJGJG KLKKLD
 sAKRT FKJGJ FJGJG KLKKLD
 sAKRT@FKJGJ@FJGJG@KLKKLD
 sAKRT FKJGJ FJGJG KLKKD
+```
 -------------------------------
-
+```
 #!/bin/bash
 
 #field splitting
@@ -198,8 +203,7 @@ echo $*
 echo $@
 echo "$*"
 echo "$@"
-====================================
-                                                                                    
+===============================================================================
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script35_IFS.sh sAKRT FKJGJ FJGJG KLKKLD
 sAKRT FKJGJ FJGJG KLKKLD
@@ -209,6 +213,7 @@ FKJGJ
 FJGJG
 KLKKLD
 sAKRT FKJGJ FJGJG KLKKLD
+```
 -------------------------------
 
 

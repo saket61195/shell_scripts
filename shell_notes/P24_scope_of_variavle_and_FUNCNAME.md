@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 var="user1"   #global varible
@@ -12,7 +13,7 @@ function xyz(){
 xyz
 echo ${var}
 ==============================
-                                                                                    
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script27_scope_of_variable.sh
 user1
@@ -40,7 +41,7 @@ function fun2() {
 }
 fun1
 =============================================
-                                                                                    
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script28_FUNCNAME.SH
 inside fun1
@@ -51,5 +52,4 @@ fun2
 fun1
 main
 fun2 ended
-fun1 ended
-            
+fun1 ended  

@@ -5,6 +5,7 @@
 
 -------------
 
+```shell
 ┌──(kali㉿kali)-[~]
 └─$ locate whoami
 /home/kali/.wine/drive_c/windows/system32/whoami.exe
@@ -20,52 +21,61 @@
 /usr/share/man/man1/whoami.1.gz
 /usr/share/windows-resources/binaries/whoami.exe
 /var/lib/veil/wine/drive_c/windows/system32/whoami.exe
-                                                          
+```
+
+
 -------------------
 
 env and printenv both will print all environment variables
 
 example of environment variables
+```
 ┌──(kali㉿kali)-[~]
 └─$ printenv
 HOME=/home/kali
 PATH=/home/kali/.rbenv/shims:/home/kali/.rbenv/bin:/home/kali/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/home/kali/go/bin
 PWD=/home/kali
 USER=kali
+```
 
 ----
+```shell
 ┌──(kali㉿kali)-[~]
-└─$ echo $PWD
+└─$  echo $PWD
 /home/kali
 ┌──(kali㉿kali)-[~]
-└─$ echo $USER       
+└─$  echo $USER       
 kali
 ┌──(kali㉿kali)-[~]
-└─$ echo $HOME
-/home/kali
+└─$  echo $HOME
+/home/kal
+```
               
 environment variable always in capital letter
 whoami is not environment variable
 but we can use it using export keyword
 
+```bash
 ┌──(kali㉿kali)-[~]
-└─$ export NAME="whoami"
-                                                                   
+└─$  export NAME="whoami"
+     
 ┌──(kali㉿kali)-[~]
-└─$ env | grep NAME     
+└─$  env | grep NAME     
 LOGNAME=kali
 NAME=whoami
 
 ┌──(kali㉿kali)-[~]
-└─$ echo $NAME     
+└─$  echo $NAME     
 whoami
 
 ┌──(kali㉿kali)-[~]
 └─$ $NAME
 kali
+```
 
 bash and zsh are bit different to run command
 
+```bash
 $ ps -e | grep bash
    6134 pts/0    00:00:00 bash
   14479 pts/1    00:00:00 bash
@@ -74,14 +84,12 @@ $ ps -e | grep bash
 └─$ ps -e | grep zsh 
   14693 pts/0    00:00:01 zsh
   17393 pts/1    00:00:00 zsh
+```
 
 
+```bash
 ┌──(kali㉿kali)-[~]
-└─$ pstree -s -p 17393
-systemd(1)───lightdm(1107)───lightdm(1231)───xfce4-session(1268)───xfce4-panel(+
-                                                                                
-┌──(kali㉿kali)-[~]
-└─$ pstree -s -p 14693
+└─$  pstree -s -p 14693
 systemd(1)───qterminal(14690)───zsh(14693)
 
 
@@ -121,8 +129,9 @@ shell variable
 ┌─[✔][saket@saket-Aspire-A515-54G:]─[~]:
 └──╼ $ $nameok
 /home/saket
+```
 
-
+```
 ┌─[✔][saket@saket-Aspire-A515-54G:]─[~]:
 └──╼ $ set | nano -
 CTRL + W AND FIND nameok
@@ -144,26 +153,32 @@ nameok=pwd
 no output
 
 ---------------------------------------------
+
+```
+
+
+```
 alias
 ┌──(kali㉿kali)-[~]
 └─$ alias iam="whoami"
-                                                                                                      
+
 ┌──(kali㉿kali)-[~]
 └─$ iam
 kali
-                                                                                                      
+
 ┌──(kali㉿kali)-[~]
 └─$ whoami      
 kali
-                                                                                                      
+ 
 ┌──(kali㉿kali)-[~]
 └─$ unalias iam
-                                                                                                      
+
 ┌──(kali㉿kali)-[~]
 └─$ iam
 Command 'iam' not found, did you mean:
+```
 
-
+```
 note
 source command is used to manually reload shell
 
@@ -179,3 +194,4 @@ export key word and wrote into .bashrc
 
  another way for make persistance
  nano /etc/environment
+```

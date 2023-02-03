@@ -1,5 +1,5 @@
-                                                                       exampele here document
-
+exampele here document
+```
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ tr [:lower:] [:upper:] <<END      
 heredoc> this is good                      
@@ -26,4 +26,5 @@ here string
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ bc <<< 2*9      
 18
+```
      

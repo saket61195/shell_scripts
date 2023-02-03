@@ -1,3 +1,4 @@
+```
 * use of shebang (#!)
 * path for execution (./)
 ----------------------
@@ -48,9 +49,9 @@ this script will open nano editor
 └─$ ./script.sh
 
 this script will also now open nano
+```
 
--------------------------------
-
+```
 #!/bin/bash   due to bash it is callled bash scripting
 
 nano script.sh
@@ -111,8 +112,9 @@ echo "this is awsome"
 kali.txt  shell
 
 
+```
 
-----------------------------
+```
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ echo $PATH
 /home/kali/.rbenv/shims:/home/kali/.rbenv/bin:/home/kali/.rbenv/shims:/home/kali/.rbenv/bin:/home/kali/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/home/kali/go/bin:/home/kali/go/bin
@@ -128,6 +130,9 @@ kali.txt  shell
 
 it is due to PATH /bin is already present in the PATH
 -----------------------------------------------------------------------
+```
+
+```
 
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script2.sh
@@ -151,27 +156,4 @@ kali.txt  shell
 in Desktop directory no script.sh present
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```

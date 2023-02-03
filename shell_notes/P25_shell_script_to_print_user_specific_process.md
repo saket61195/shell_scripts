@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 function user_proc() 
@@ -24,9 +25,8 @@ kali        1426    1281 xfwm4                        4.0  0.5
 kali        1477    1462 /usr/lib/x86_64-linux-gnu/x  1.3  0.4
 kali        1377    1375 /usr/bin/VBoxClient --draga  0.1  0.4
 ........
-                                                 
+ 
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script29_print_user_specific_process.sh user2
 USER         PID    PPID CMD                         %MEM %CPU
 user2      13593   13568 -bash                        0.1  0.0
-                                                                                

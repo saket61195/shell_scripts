@@ -1,4 +1,5 @@
-  GNU nano 7.1                              script8_if_else.sh                                        
+ ```
+``` GNU nano 7.1                              script8_if_else.sh                                        
 #!/bin/bash
 
 read -p "please Enter the username: " USERNAME
@@ -17,19 +18,19 @@ fi
 please Enter the username: kali
 uid=1000(kali) gid=1000(kali) groups=1000(kali),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),109(netdev),119(wireshark),122(bluetooth),134(scanner),142(vboxsf),143(kaboxer)
 The given kali exist int the system
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script8_if_else.sh
 please Enter the username: saket
 uid=1001(saket) gid=1001(saket) groups=1001(saket)
 The given saket exist int the system
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script8_if_else.sh
 please Enter the username: roahn
 id: ‘roahn’: no such user
 The user roahn doesn't exist int the system
-                                                                                                      
+
 --------------------------------------------------------------------
   GNU nano 7.1                              script8_if_else.sh                                        
 #!/bin/bash
@@ -49,7 +50,7 @@ fi
 └─$ ./script8_if_else.sh
 please Enter the username: saket
 The given saket exist int the system
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ ./script8_if_else.sh
 please Enter the username: mohan
@@ -78,14 +79,14 @@ Enter the new value, or press ENTER for the default
 Is the information correct? [Y/n] 
 Adding new user `user1' to supplemental / extra groups `users' ...
 Adding user `user1' to group `users' ...
-                                                                                                                                                                                                     
+ 
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ cat /etc/passwd | grep user
 user1:x:1003:1003:,,,:/home/user1:/bin/bash
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ 
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ sudo adduser --disabled-password user2
 Adding user `user2' ...
@@ -108,7 +109,6 @@ Adding user `user2' to group `users' ...
 └─$ cat /etc/passwd | grep user
 user1:x:1003:1003:,,,:/home/user1:/bin/bash
 user2:x:1004:1004:,,,:/home/user2:/bin/bash
-                                           
 
 ---------------------------------------------
 --gecos "user3name 43 000 nothong"
@@ -126,7 +126,7 @@ it is used for  Full Name []:
 └─$ sudo adduser --disabled-password user3 --gecos "user3name 43 000 nothong" &> /dev/null
 
 
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ cat /etc/passwd | grep user                                                           
 user1:x:1003:1003:,,,:/home/user1:/bin/bash
@@ -152,7 +152,7 @@ Password:
 └─$ sudo chpasswd              
 user3:user3
 ^C
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ su -l user3  
 Password: 
@@ -163,7 +163,7 @@ Password:
 
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ echo "user5:user5" | sudo chpasswd     
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ su -l user5                                   
 Password: 
@@ -224,93 +224,21 @@ user4:x:1006:1006:,,,:/home/user4:/bin/bash
 user5:x:1007:1007:,,,:/home/user5:/bin/bash
 user6:x:1008:1008:,,,:/home/user6:/bin/bash
 user7:x:1009:1009:,,,:/home/user7:/bin/bash
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ 
 ----------------------------------------------
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ true                             
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ echo $?                           
 0
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ false                                                         
-                                                                                                      
+
 ┌──(kali㉿kali)-[~/Desktop/shell]
 └─$ echo $?
 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
